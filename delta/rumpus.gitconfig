@@ -1,0 +1,111 @@
+# Rumpus - A 1970s-inspired color theme for Delta
+# A warm, earthy diff theme inspired by rumpus room aesthetics
+#
+# Installation:
+#   1. Include this file in your ~/.gitconfig:
+#      [include]
+#          path = /path/to/rumpus/delta/rumpus.gitconfig
+#
+#   2. Activate the theme:
+#      [delta]
+#          features = rumpus
+#          navigate = true
+#          side-by-side = true  # optional
+#
+# Color Palette:
+#   Walnut:        #2A1810 (primary background)
+#   Tan/Beige:     #F4DDB3 (primary text)
+#   Harvest Gold:  #E9A131 (highlights)
+#   Burnt Orange:  #F67422 (emphasis)
+#   Avocado Green: #79966d (success/added)
+#   Slate Blue:    #5B7C99 (info)
+#   Mustard Yellow:#D3BE47 (selections)
+#   Rust Red:      #E84A38 (errors/removed)
+#   Chocolate:     #5F3822 (secondary background)
+
+[delta "rumpus"]
+    # General settings
+    dark = true
+    syntax-theme = none
+
+    # Define custom colors for theme consistency
+    rumpus-walnut = "#2A1810"
+    rumpus-chocolate = "#5F3822"
+    rumpus-tan = "#F4DDB3"
+    rumpus-harvest-gold = "#E9A131"
+    rumpus-burnt-orange = "#F67422"
+    rumpus-avocado = "#79966d"
+    rumpus-slate = "#5B7C99"
+    rumpus-mustard = "#D3BE47"
+    rumpus-rust = "#E84A38"
+    rumpus-light-avocado = "#9BB589"
+    rumpus-light-brown = "#84563B"
+
+    # File headers - use harvest gold for file names
+    file-style = "bold rumpus.rumpus-harvest-gold"
+    file-decoration-style = "rumpus.rumpus-harvest-gold ul"
+    file-added-label = "[+]"
+    file-modified-label = "[*]"
+    file-removed-label = "[-]"
+    file-renamed-label = "[→]"
+
+    # Commit headers - use burnt orange for commit info
+    commit-style = "bold rumpus.rumpus-burnt-orange"
+    commit-decoration-style = "rumpus.rumpus-burnt-orange ol"
+
+    # Hunk headers - use slate blue for context
+    hunk-header-style = "file line-number rumpus.rumpus-slate"
+    hunk-header-decoration-style = "rumpus.rumpus-chocolate box"
+    hunk-header-file-style = "rumpus.rumpus-harvest-gold"
+    hunk-header-line-number-style = "rumpus.rumpus-mustard"
+
+    # Removed lines (minus) - rust red background with tan text
+    minus-style = "normal rumpus.rumpus-rust"
+    minus-non-emph-style = "normal rumpus.rumpus-chocolate"
+    minus-emph-style = "bold rumpus.rumpus-tan rumpus.rumpus-rust"
+    minus-empty-line-marker-style = "normal rumpus.rumpus-chocolate"
+
+    # Added lines (plus) - avocado green background with walnut text
+    plus-style = "normal rumpus.rumpus-avocado"
+    plus-non-emph-style = "normal rumpus.rumpus-chocolate"
+    plus-emph-style = "bold rumpus.rumpus-walnut rumpus.rumpus-light-avocado"
+    plus-empty-line-marker-style = "normal rumpus.rumpus-chocolate"
+
+    # Line numbers
+    line-numbers = true
+    line-numbers-minus-style = "rumpus.rumpus-rust"
+    line-numbers-plus-style = "rumpus.rumpus-avocado"
+    line-numbers-zero-style = "rumpus.rumpus-light-brown"
+    line-numbers-left-style = "rumpus.rumpus-light-brown"
+    line-numbers-right-style = "rumpus.rumpus-light-brown"
+    line-numbers-left-format = "{nm:>4}│"
+    line-numbers-right-format = "{np:>4}│"
+
+    # Merge conflicts
+    merge-conflict-begin-symbol = "⌃"
+    merge-conflict-end-symbol = "⌄"
+    merge-conflict-ours-diff-header-style = "rumpus.rumpus-mustard"
+    merge-conflict-theirs-diff-header-style = "rumpus.rumpus-slate"
+
+    # Whitespace error handling
+    whitespace-error-style = "reverse rumpus.rumpus-rust"
+
+    # Blame colors
+    blame-palette = "#2A1810 #5F3822 #79966d #5B7C99"
+
+    # Hyperlinks (git delta can linkify commit hashes, etc.)
+    hyperlinks = true
+    hyperlinks-file-link-format = "file://{path}"
+
+    # Zero width characters handling
+    true-color = always
+    tabs = 4
+
+    # Inspect raw lines
+    inspect-raw-lines = true
+
+    # Paging
+    paging = auto
+
+    # Navigation between files
+    navigate = true

@@ -1,0 +1,130 @@
+// Rumpus - 1970s Rumpus Room Color Palette
+// https://github.com/715d/rumpus
+themes {
+    rumpus {
+        text_unselected {
+            base 244 221 179
+            background 42 24 16
+            emphasis_0 246 116 34
+            emphasis_1 91 124 153
+            emphasis_2 233 161 49
+            emphasis_3 121 150 109
+        }
+        text_selected {
+            base 42 24 16
+            background 211 190 71
+            emphasis_0 246 116 34
+            emphasis_1 91 124 153
+            emphasis_2 233 161 49
+            emphasis_3 121 150 109
+        }
+        ribbon_selected {
+            base 42 24 16
+            background 246 116 34
+            emphasis_0 232 74 56
+            emphasis_1 233 161 49
+            emphasis_2 121 150 109
+            emphasis_3 91 124 153
+        }
+        ribbon_unselected {
+            base 42 24 16
+            background 244 221 179
+            emphasis_0 232 74 56
+            emphasis_1 246 116 34
+            emphasis_2 91 124 153
+            emphasis_3 121 150 109
+        }
+        table_title {
+            base 233 161 49
+            background 42 24 16
+            emphasis_0 246 116 34
+            emphasis_1 91 124 153
+            emphasis_2 121 150 109
+            emphasis_3 211 190 71
+        }
+        table_cell_selected {
+            base 42 24 16
+            background 211 190 71
+            emphasis_0 246 116 34
+            emphasis_1 91 124 153
+            emphasis_2 233 161 49
+            emphasis_3 121 150 109
+        }
+        table_cell_unselected {
+            base 244 221 179
+            background 42 24 16
+            emphasis_0 246 116 34
+            emphasis_1 91 124 153
+            emphasis_2 233 161 49
+            emphasis_3 121 150 109
+        }
+        list_selected {
+            base 42 24 16
+            background 211 190 71
+            emphasis_0 246 116 34
+            emphasis_1 91 124 153
+            emphasis_2 233 161 49
+            emphasis_3 121 150 109
+        }
+        list_unselected {
+            base 244 221 179
+            background 42 24 16
+            emphasis_0 246 116 34
+            emphasis_1 91 124 153
+            emphasis_2 233 161 49
+            emphasis_3 121 150 109
+        }
+        frame_selected {
+            base 233 161 49
+            background 42 24 16
+            emphasis_0 246 116 34
+            emphasis_1 91 124 153
+            emphasis_2 211 190 71
+            emphasis_3 121 150 109
+        }
+        frame_unselected {
+            base 244 221 179
+            background 42 24 16
+            emphasis_0 246 116 34
+            emphasis_1 91 124 153
+            emphasis_2 233 161 49
+            emphasis_3 121 150 109
+        }
+        frame_highlight {
+            base 211 190 71
+            background 42 24 16
+            emphasis_0 246 116 34
+            emphasis_1 233 161 49
+            emphasis_2 91 124 153
+            emphasis_3 121 150 109
+        }
+        exit_code_success {
+            base 121 150 109
+            background 42 24 16
+            emphasis_0 233 161 49
+            emphasis_1 91 124 153
+            emphasis_2 211 190 71
+            emphasis_3 246 116 34
+        }
+        exit_code_error {
+            base 232 74 56
+            background 42 24 16
+            emphasis_0 233 161 49
+            emphasis_1 244 221 179
+            emphasis_2 246 116 34
+            emphasis_3 91 124 153
+        }
+        multiplayer_user_colors {
+            player_1 246 116 34
+            player_2 91 124 153
+            player_3 233 161 49
+            player_4 211 190 71
+            player_5 121 150 109
+            player_6 232 74 56
+            player_7 244 221 179
+            player_8 246 116 34
+            player_9 91 124 153
+            player_10 233 161 49
+        }
+    }
+}

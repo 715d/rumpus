@@ -1,0 +1,48 @@
+{
+  "name": "rumpus-theme",
+  "displayName": "Rumpus Theme",
+  "description": "A warm, earthy terminal color scheme inspired by 1970s rumpus rooms and mid-century modern design aesthetics",
+  "version": "1.0.0",
+  "publisher": "715d",
+  "author": "715d",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "color-theme",
+    "dark theme",
+    "retro",
+    "1970s",
+    "mid-century modern",
+    "rumpus",
+    "harvest gold",
+    "avocado green",
+    "burnt orange"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Rumpus",
+        "uiTheme": "vs-dark",
+        "path": "./rumpus-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/715d/rumpus"
+  },
+  "bugs": {
+    "url": "https://github.com/715d/rumpus/issues"
+  },
+  "homepage": "https://github.com/715d/rumpus#readme",
+  "galleryBanner": {
+    "color": "#2A1810",
+    "theme": "dark"
+  }
+}

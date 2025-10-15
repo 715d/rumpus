@@ -1,0 +1,94 @@
+name: Nix CI
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "flake.nix"
+      - "flake.lock"
+      - "nix/**"
+      - "ghostty/**"
+      - "zellij/**"
+      - "tmux/**"
+      - "fish/**"
+      - "zsh/**"
+      - "delta/**"
+      - "bat/**"
+      - "helix/**"
+      - "zed/**"
+      - "nvim/**"
+      - ".github/workflows/nix.yml"
+  pull_request:
+    branches: [main]
+    paths:
+      - "flake.nix"
+      - "flake.lock"
+      - "nix/**"
+      - "ghostty/**"
+      - "zellij/**"
+      - "tmux/**"
+      - "fish/**"
+      - "zsh/**"
+      - "delta/**"
+      - "bat/**"
+      - "helix/**"
+      - "zed/**"
+      - "nvim/**"
+      - ".github/workflows/nix.yml"
+
+jobs:
+  nix-build:
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Install Nix
+        uses: cachix/install-nix-action@v26
+        with:
+          nix_path: nixpkgs=channel:nixos-unstable
+
+      - name: Check flake
+        run: nix flake check
+
+      - name: Build package
+        run: nix build
+
+      - name: Verify package contents
+        run: |
+          result=$(nix build --no-link --print-out-paths)
+          echo "Package built at: $result"
+
+          # Verify all theme directories exist
+          for dir in ghostty zellij tmux fish zsh delta bat helix zed nvim; do
+            if [ ! -d "$result/$dir" ]; then
+              echo "ERROR: Missing directory: $dir"
+              exit 1
+            fi
+            echo "✓ Found directory: $dir"
+          done
+
+          echo "All theme directories present!"
+
+      - name: Format check
+        run: nix fmt -- --check .
+
+  test-integration:
+    runs-on: ubuntu-latest
+    needs: nix-build
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Install Nix
+        uses: cachix/install-nix-action@v26
+        with:
+          nix_path: nixpkgs=channel:nixos-unstable
+
+      - name: Run integration tests
+        run: |
+          nix-build nix/tests/default.nix -A package-builds --impure
+          nix-build nix/tests/default.nix -A home-manager-module-evaluates --impure

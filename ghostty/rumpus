@@ -1,0 +1,29 @@
+# Rumpus - 1970s Rumpus Room Theme
+# https://github.com/715d/rumpus
+
+# UI Colors
+background = #2a1810
+foreground = #f4ddb3
+cursor-color = #e9a131
+selection-background = #d3be47
+selection-foreground = #2a1810
+
+# Standard Colors (0-7)
+palette = 0=#2a1810
+palette = 1=#e84a38
+palette = 2=#79966d
+palette = 3=#e9a131
+palette = 4=#5b7c99
+palette = 5=#d3be47
+palette = 6=#5b7c99
+palette = 7=#f4ddb3
+
+# Bright Colors (8-15)
+palette = 8=#84563b
+palette = 9=#f67422
+palette = 10=#9bb589
+palette = 11=#f1c760
+palette = 12=#7a96b0
+palette = 13=#e1d36b
+palette = 14=#7a96b0
+palette = 15=#fcf0dc
