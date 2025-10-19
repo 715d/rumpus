@@ -223,17 +223,17 @@ Bat is a cat replacement with syntax highlighting and Git integration.
 
 3. Set the theme in your `~/.config/bat/config`:
    ```bash
-   --theme="Rumpus"
+   --theme="rumpus"
    ```
 
    Or use it temporarily:
    ```bash
-   bat --theme=Rumpus file.txt
+   bat --theme=rumpus file.txt
    ```
 
    To verify the theme is installed:
    ```bash
-   bat --list-themes | grep Rumpus
+   bat --list-themes | grep rumpus
    ```
 
 ### Helix

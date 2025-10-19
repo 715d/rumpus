@@ -58,7 +58,7 @@ The Rumpus flake provides theme integration for the following tools:
 | **Fish** | ✅ **Fully automatic** | None - auto-enabled via conf.d |
 | **Zsh** | ✅ Custom dir set | Set `programs.zsh.oh-my-zsh.theme = "rumpus"` |
 | **Delta** | ✅ File linked | Add to gitconfig |
-| **Bat** | ✅ File linked | Run `bat cache --build`, set `--theme="Rumpus"` |
+| **Bat** | ✅ File linked | Run `bat cache --build`, set `--theme="rumpus"` |
 | **Helix** | ✅ File linked | Set `theme = "rumpus"` in config.toml |
 | **Zed** | ✅ File linked | Select theme in Zed UI |
 | **Neovim** | ✅ File linked | Add `vim.cmd("colorscheme rumpus")` to config |
@@ -165,7 +165,7 @@ bat cache --build
 
 And set the theme in `~/.config/bat/config`:
 ```
---theme="Rumpus"
+--theme="rumpus"
 ```
 
 Or via Home Manager:
@@ -173,7 +173,7 @@ Or via Home Manager:
 programs.bat = {
   enable = true;
   config = {
-    theme = "Rumpus";
+    theme = "rumpus";
   };
 };
 ```
@@ -270,7 +270,7 @@ Here's a full example Home Manager configuration:
 
     # Tool-specific activation
     programs.zsh.oh-my-zsh.theme = "rumpus";
-    programs.bat.config.theme = "Rumpus";
+    programs.bat.config.theme = "rumpus";
     programs.helix.settings.theme = "rumpus";
     programs.neovim.extraLuaConfig = ''
       vim.cmd("colorscheme rumpus")
@@ -317,7 +317,7 @@ Then manually link the theme files you need:
 3. **For Bat**, rebuild the cache:
    ```bash
    bat cache --build
-   bat --list-themes | grep Rumpus
+   bat --list-themes | grep rumpus
    ```
 
 ### Zsh warning about oh-my-zsh
