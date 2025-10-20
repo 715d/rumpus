@@ -2,6 +2,8 @@
 
 A warm, earthy terminal color scheme inspired by 1970s rumpus rooms and mid-century modern design aesthetics.
 
+![Rumpus syntax highlighting](docs/rumpus-highlight.png)
+
 ## Features
 
 - 🟤 **Authentic 70s palette** - Harvest gold, avocado green, burnt orange, and walnut
