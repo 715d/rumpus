@@ -15,21 +15,21 @@ local colors = {
   -- Primary colors
   walnut = "#2A1810",
   chocolate_brown = "#5F3822",
-  beige = "#F4DDB3",
+  almond = "#F4DDB3",
   harvest_gold = "#E9A131",
   burnt_orange = "#F67422",
   avocado_green = "#79966d",
-  slate_blue = "#5B7C99",
-  mustard_yellow = "#D3BE47",
-  rust_red = "#E84A38",
+  denim_blue = "#5B7C99",
+  lava_gold = "#D3BE47",
+  persimmon = "#E84A38",
 
   -- Bright/light colors
   light_brown = "#84563B",
   light_avocado = "#9BB589",
   light_harvest_gold = "#F1C760",
-  light_slate_blue = "#7A96B0",
-  light_mustard = "#E1D36B",
-  light_tan = "#FCF0DC",
+  light_denim_blue = "#7A96B0",
+  light_lava_gold = "#E1D36B",
+  light_almond = "#FCF0DC",
 
   -- Semantic aliases
   bg = "#2A1810",
@@ -60,19 +60,19 @@ hl("Normal", { fg = colors.fg, bg = colors.bg })
 hl("NormalFloat", { fg = colors.fg, bg = colors.bg_secondary })
 hl("NormalNC", { fg = colors.fg, bg = colors.bg })
 hl("ColorColumn", { bg = colors.bg_secondary })
-hl("Conceal", { fg = colors.slate_blue })
+hl("Conceal", { fg = colors.denim_blue })
 hl("Cursor", { fg = colors.bg, bg = colors.cursor })
 hl("lCursor", { link = "Cursor" })
 hl("CursorIM", { link = "Cursor" })
 hl("CursorColumn", { bg = colors.bg_secondary })
 hl("CursorLine", { bg = colors.bg_secondary })
-hl("Directory", { fg = colors.slate_blue, bold = true })
+hl("Directory", { fg = colors.denim_blue, bold = true })
 hl("DiffAdd", { fg = colors.avocado_green, bg = colors.bg_secondary })
-hl("DiffChange", { fg = colors.mustard_yellow, bg = colors.bg_secondary })
-hl("DiffDelete", { fg = colors.rust_red, bg = colors.bg_secondary })
+hl("DiffChange", { fg = colors.lava_gold, bg = colors.bg_secondary })
+hl("DiffDelete", { fg = colors.persimmon, bg = colors.bg_secondary })
 hl("DiffText", { fg = colors.burnt_orange, bg = colors.bg_secondary, bold = true })
 hl("EndOfBuffer", { fg = colors.chocolate_brown })
-hl("ErrorMsg", { fg = colors.rust_red, bold = true })
+hl("ErrorMsg", { fg = colors.persimmon, bold = true })
 hl("VertSplit", { fg = colors.chocolate_brown })
 hl("WinSeparator", { link = "VertSplit" })
 hl("Folded", { fg = colors.light_brown, bg = colors.bg_secondary })
@@ -102,11 +102,11 @@ hl("PmenuSbar", { bg = colors.chocolate_brown })
 hl("PmenuThumb", { bg = colors.light_brown })
 hl("Question", { fg = colors.avocado_green, bold = true })
 hl("QuickFixLine", { fg = colors.bg, bg = colors.harvest_gold })
-hl("Search", { fg = colors.bg, bg = colors.mustard_yellow })
+hl("Search", { fg = colors.bg, bg = colors.lava_gold })
 hl("SpecialKey", { fg = colors.chocolate_brown })
-hl("SpellBad", { sp = colors.rust_red, undercurl = true })
-hl("SpellCap", { sp = colors.mustard_yellow, undercurl = true })
-hl("SpellLocal", { sp = colors.slate_blue, undercurl = true })
+hl("SpellBad", { sp = colors.persimmon, undercurl = true })
+hl("SpellCap", { sp = colors.lava_gold, undercurl = true })
+hl("SpellLocal", { sp = colors.denim_blue, undercurl = true })
 hl("SpellRare", { sp = colors.avocado_green, undercurl = true })
 hl("StatusLine", { fg = colors.fg, bg = colors.chocolate_brown })
 hl("StatusLineNC", { fg = colors.light_brown, bg = colors.bg_secondary })
@@ -114,9 +114,9 @@ hl("TabLine", { fg = colors.light_brown, bg = colors.bg_secondary })
 hl("TabLineFill", { bg = colors.bg_secondary })
 hl("TabLineSel", { fg = colors.bg, bg = colors.harvest_gold, bold = true })
 hl("Title", { fg = colors.harvest_gold, bold = true })
-hl("Visual", { fg = colors.bg, bg = colors.mustard_yellow })
+hl("Visual", { fg = colors.bg, bg = colors.lava_gold })
 hl("VisualNOS", { link = "Visual" })
-hl("WarningMsg", { fg = colors.mustard_yellow, bold = true })
+hl("WarningMsg", { fg = colors.lava_gold, bold = true })
 hl("Whitespace", { fg = colors.chocolate_brown })
 hl("WildMenu", { link = "PmenuSel" })
 hl("WinBar", { link = "StatusLine" })
@@ -131,43 +131,43 @@ hl("Number", { fg = colors.harvest_gold })
 hl("Boolean", { fg = colors.harvest_gold })
 hl("Float", { fg = colors.harvest_gold })
 hl("Identifier", { fg = colors.fg })
-hl("Function", { fg = colors.slate_blue })
+hl("Function", { fg = colors.denim_blue })
 hl("Statement", { fg = colors.burnt_orange })
 hl("Conditional", { fg = colors.burnt_orange })
 hl("Repeat", { fg = colors.burnt_orange })
 hl("Label", { fg = colors.burnt_orange })
-hl("Operator", { fg = colors.slate_blue })
+hl("Operator", { fg = colors.denim_blue })
 hl("Keyword", { fg = colors.burnt_orange, bold = true })
-hl("Exception", { fg = colors.rust_red })
+hl("Exception", { fg = colors.persimmon })
 hl("PreProc", { fg = colors.burnt_orange })
 hl("Include", { fg = colors.burnt_orange })
 hl("Define", { fg = colors.burnt_orange })
 hl("Macro", { fg = colors.burnt_orange })
 hl("PreCondit", { fg = colors.burnt_orange })
-hl("Type", { fg = colors.mustard_yellow })
+hl("Type", { fg = colors.lava_gold })
 hl("StorageClass", { fg = colors.burnt_orange })
-hl("Structure", { fg = colors.mustard_yellow })
-hl("Typedef", { fg = colors.mustard_yellow })
+hl("Structure", { fg = colors.lava_gold })
+hl("Typedef", { fg = colors.lava_gold })
 hl("Special", { fg = colors.harvest_gold })
 hl("SpecialChar", { fg = colors.harvest_gold })
-hl("Tag", { fg = colors.slate_blue })
+hl("Tag", { fg = colors.denim_blue })
 hl("Delimiter", { fg = colors.fg })
 hl("SpecialComment", { fg = colors.light_brown, italic = true })
-hl("Debug", { fg = colors.rust_red })
-hl("Underlined", { fg = colors.slate_blue, underline = true })
+hl("Debug", { fg = colors.persimmon })
+hl("Underlined", { fg = colors.denim_blue, underline = true })
 hl("Ignore", { fg = colors.chocolate_brown })
-hl("Error", { fg = colors.rust_red, bold = true })
-hl("Todo", { fg = colors.bg, bg = colors.mustard_yellow, bold = true })
+hl("Error", { fg = colors.persimmon, bold = true })
+hl("Todo", { fg = colors.bg, bg = colors.lava_gold, bold = true })
 
 -- Treesitter syntax groups
 hl("@variable", { fg = colors.fg })
 hl("@variable.builtin", { fg = colors.harvest_gold })
-hl("@variable.parameter", { fg = colors.light_tan })
+hl("@variable.parameter", { fg = colors.light_almond })
 hl("@variable.member", { fg = colors.fg })
 hl("@constant", { fg = colors.harvest_gold })
 hl("@constant.builtin", { fg = colors.harvest_gold })
 hl("@constant.macro", { fg = colors.burnt_orange })
-hl("@module", { fg = colors.mustard_yellow })
+hl("@module", { fg = colors.lava_gold })
 hl("@label", { fg = colors.burnt_orange })
 hl("@string", { fg = colors.avocado_green })
 hl("@string.documentation", { fg = colors.light_avocado, italic = true })
@@ -179,19 +179,19 @@ hl("@character.special", { fg = colors.harvest_gold })
 hl("@number", { fg = colors.harvest_gold })
 hl("@number.float", { fg = colors.harvest_gold })
 hl("@boolean", { fg = colors.harvest_gold })
-hl("@type", { fg = colors.mustard_yellow })
-hl("@type.builtin", { fg = colors.mustard_yellow })
-hl("@type.definition", { fg = colors.mustard_yellow })
+hl("@type", { fg = colors.lava_gold })
+hl("@type.builtin", { fg = colors.lava_gold })
+hl("@type.definition", { fg = colors.lava_gold })
 hl("@attribute", { fg = colors.burnt_orange })
 hl("@property", { fg = colors.fg })
-hl("@function", { fg = colors.slate_blue })
-hl("@function.builtin", { fg = colors.slate_blue })
-hl("@function.call", { fg = colors.slate_blue })
+hl("@function", { fg = colors.denim_blue })
+hl("@function.builtin", { fg = colors.denim_blue })
+hl("@function.call", { fg = colors.denim_blue })
 hl("@function.macro", { fg = colors.burnt_orange })
-hl("@function.method", { fg = colors.slate_blue })
-hl("@function.method.call", { fg = colors.slate_blue })
-hl("@constructor", { fg = colors.mustard_yellow })
-hl("@operator", { fg = colors.slate_blue })
+hl("@function.method", { fg = colors.denim_blue })
+hl("@function.method.call", { fg = colors.denim_blue })
+hl("@constructor", { fg = colors.lava_gold })
+hl("@operator", { fg = colors.denim_blue })
 hl("@keyword", { fg = colors.burnt_orange, bold = true })
 hl("@keyword.coroutine", { fg = colors.burnt_orange })
 hl("@keyword.function", { fg = colors.burnt_orange, bold = true })
@@ -201,8 +201,8 @@ hl("@keyword.type", { fg = colors.burnt_orange })
 hl("@keyword.modifier", { fg = colors.burnt_orange })
 hl("@keyword.repeat", { fg = colors.burnt_orange })
 hl("@keyword.return", { fg = colors.burnt_orange, bold = true })
-hl("@keyword.debug", { fg = colors.rust_red })
-hl("@keyword.exception", { fg = colors.rust_red })
+hl("@keyword.debug", { fg = colors.persimmon })
+hl("@keyword.exception", { fg = colors.persimmon })
 hl("@keyword.conditional", { fg = colors.burnt_orange })
 hl("@keyword.conditional.ternary", { fg = colors.burnt_orange })
 hl("@keyword.directive", { fg = colors.burnt_orange })
@@ -212,30 +212,30 @@ hl("@punctuation.bracket", { fg = colors.fg })
 hl("@punctuation.special", { fg = colors.harvest_gold })
 hl("@comment", { fg = colors.light_brown, italic = true })
 hl("@comment.documentation", { fg = colors.light_brown, italic = true })
-hl("@comment.error", { fg = colors.rust_red, bold = true })
-hl("@comment.warning", { fg = colors.mustard_yellow, bold = true })
-hl("@comment.todo", { fg = colors.bg, bg = colors.mustard_yellow, bold = true })
-hl("@comment.note", { fg = colors.slate_blue, bold = true })
+hl("@comment.error", { fg = colors.persimmon, bold = true })
+hl("@comment.warning", { fg = colors.lava_gold, bold = true })
+hl("@comment.todo", { fg = colors.bg, bg = colors.lava_gold, bold = true })
+hl("@comment.note", { fg = colors.denim_blue, bold = true })
 hl("@markup.strong", { bold = true })
 hl("@markup.italic", { italic = true })
 hl("@markup.strikethrough", { strikethrough = true })
 hl("@markup.underline", { underline = true })
 hl("@markup.heading", { fg = colors.harvest_gold, bold = true })
 hl("@markup.quote", { fg = colors.light_brown, italic = true })
-hl("@markup.math", { fg = colors.slate_blue })
-hl("@markup.link", { fg = colors.slate_blue, underline = true })
-hl("@markup.link.label", { fg = colors.slate_blue })
-hl("@markup.link.url", { fg = colors.light_slate_blue, underline = true })
+hl("@markup.math", { fg = colors.denim_blue })
+hl("@markup.link", { fg = colors.denim_blue, underline = true })
+hl("@markup.link.label", { fg = colors.denim_blue })
+hl("@markup.link.url", { fg = colors.light_denim_blue, underline = true })
 hl("@markup.raw", { fg = colors.avocado_green })
 hl("@markup.raw.block", { fg = colors.avocado_green })
 hl("@markup.list", { fg = colors.burnt_orange })
 hl("@markup.list.checked", { fg = colors.avocado_green })
 hl("@markup.list.unchecked", { fg = colors.light_brown })
 hl("@diff.plus", { fg = colors.avocado_green })
-hl("@diff.minus", { fg = colors.rust_red })
-hl("@diff.delta", { fg = colors.mustard_yellow })
+hl("@diff.minus", { fg = colors.persimmon })
+hl("@diff.delta", { fg = colors.lava_gold })
 hl("@tag", { fg = colors.burnt_orange })
-hl("@tag.attribute", { fg = colors.slate_blue })
+hl("@tag.attribute", { fg = colors.denim_blue })
 hl("@tag.delimiter", { fg = colors.fg })
 
 -- LSP semantic tokens
@@ -256,19 +256,19 @@ hl("@lsp.type.typeParameter", { link = "@type" })
 hl("@lsp.type.variable", { link = "@variable" })
 
 -- Diagnostics
-hl("DiagnosticError", { fg = colors.rust_red })
-hl("DiagnosticWarn", { fg = colors.mustard_yellow })
-hl("DiagnosticInfo", { fg = colors.slate_blue })
+hl("DiagnosticError", { fg = colors.persimmon })
+hl("DiagnosticWarn", { fg = colors.lava_gold })
+hl("DiagnosticInfo", { fg = colors.denim_blue })
 hl("DiagnosticHint", { fg = colors.avocado_green })
 hl("DiagnosticOk", { fg = colors.avocado_green })
-hl("DiagnosticUnderlineError", { sp = colors.rust_red, undercurl = true })
-hl("DiagnosticUnderlineWarn", { sp = colors.mustard_yellow, undercurl = true })
-hl("DiagnosticUnderlineInfo", { sp = colors.slate_blue, undercurl = true })
+hl("DiagnosticUnderlineError", { sp = colors.persimmon, undercurl = true })
+hl("DiagnosticUnderlineWarn", { sp = colors.lava_gold, undercurl = true })
+hl("DiagnosticUnderlineInfo", { sp = colors.denim_blue, undercurl = true })
 hl("DiagnosticUnderlineHint", { sp = colors.avocado_green, undercurl = true })
 hl("DiagnosticUnderlineOk", { sp = colors.avocado_green, undercurl = true })
-hl("DiagnosticVirtualTextError", { fg = colors.rust_red, bg = colors.bg_secondary })
-hl("DiagnosticVirtualTextWarn", { fg = colors.mustard_yellow, bg = colors.bg_secondary })
-hl("DiagnosticVirtualTextInfo", { fg = colors.slate_blue, bg = colors.bg_secondary })
+hl("DiagnosticVirtualTextError", { fg = colors.persimmon, bg = colors.bg_secondary })
+hl("DiagnosticVirtualTextWarn", { fg = colors.lava_gold, bg = colors.bg_secondary })
+hl("DiagnosticVirtualTextInfo", { fg = colors.denim_blue, bg = colors.bg_secondary })
 hl("DiagnosticVirtualTextHint", { fg = colors.avocado_green, bg = colors.bg_secondary })
 hl("DiagnosticVirtualTextOk", { fg = colors.avocado_green, bg = colors.bg_secondary })
 hl("DiagnosticFloatingError", { link = "DiagnosticError" })
@@ -293,26 +293,26 @@ hl("LspInlayHint", { fg = colors.light_brown, bg = colors.bg_secondary, italic =
 
 -- Git signs
 hl("GitSignsAdd", { fg = colors.avocado_green })
-hl("GitSignsChange", { fg = colors.mustard_yellow })
-hl("GitSignsDelete", { fg = colors.rust_red })
+hl("GitSignsChange", { fg = colors.lava_gold })
+hl("GitSignsDelete", { fg = colors.persimmon })
 hl("GitSignsAddInline", { fg = colors.avocado_green, bg = colors.bg_secondary })
-hl("GitSignsChangeInline", { fg = colors.mustard_yellow, bg = colors.bg_secondary })
-hl("GitSignsDeleteInline", { fg = colors.rust_red, bg = colors.bg_secondary })
+hl("GitSignsChangeInline", { fg = colors.lava_gold, bg = colors.bg_secondary })
+hl("GitSignsDeleteInline", { fg = colors.persimmon, bg = colors.bg_secondary })
 
 -- Terminal colors
 vim.g.terminal_color_0 = colors.walnut
-vim.g.terminal_color_1 = colors.rust_red
+vim.g.terminal_color_1 = colors.persimmon
 vim.g.terminal_color_2 = colors.avocado_green
 vim.g.terminal_color_3 = colors.harvest_gold
-vim.g.terminal_color_4 = colors.slate_blue
-vim.g.terminal_color_5 = colors.mustard_yellow
-vim.g.terminal_color_6 = colors.slate_blue
-vim.g.terminal_color_7 = colors.beige
+vim.g.terminal_color_4 = colors.denim_blue
+vim.g.terminal_color_5 = colors.lava_gold
+vim.g.terminal_color_6 = colors.denim_blue
+vim.g.terminal_color_7 = colors.almond
 vim.g.terminal_color_8 = colors.light_brown
 vim.g.terminal_color_9 = colors.burnt_orange
 vim.g.terminal_color_10 = colors.light_avocado
 vim.g.terminal_color_11 = colors.light_harvest_gold
-vim.g.terminal_color_12 = colors.light_slate_blue
-vim.g.terminal_color_13 = colors.light_mustard
-vim.g.terminal_color_14 = colors.light_slate_blue
-vim.g.terminal_color_15 = colors.light_tan
+vim.g.terminal_color_12 = colors.light_denim_blue
+vim.g.terminal_color_13 = colors.light_lava_gold
+vim.g.terminal_color_14 = colors.light_denim_blue
+vim.g.terminal_color_15 = colors.light_almond

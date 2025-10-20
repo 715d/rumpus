@@ -20,41 +20,41 @@ A warm, earthy terminal color scheme inspired by 1970s rumpus rooms and mid-cent
 |-------|-----|-----|-------|
 | Walnut | `#2A1810` | `42 24 16` | Primary background |
 | Chocolate Brown | `#5F3822` | `95 56 34` | Secondary background, dark accent |
-| Tan/Beige | `#F4DDB3` | `244 221 179` | Primary text |
+| Almond | `#F4DDB3` | `244 221 179` | Primary text |
 | Harvest Gold | `#E9A131` | `233 161 49` | Highlights, active elements |
 | Burnt Orange | `#F67422` | `246 116 34` | Emphasis, keywords |
 | Avocado Green | `#79966d` | `121 150 109` | Success, strings |
-| Slate Blue | `#5B7C99` | `91 124 153` | Information, operators |
-| Mustard Yellow | `#D3BE47` | `211 190 71` | Selections, warnings |
-| Rust Red | `#E84A38` | `232 74 56` | Errors, locked states |
+| Denim Blue | `#5B7C99` | `91 124 153` | Information, operators |
+| Lava Gold | `#D3BE47` | `211 190 71` | Selections, warnings |
+| Persimmon | `#E84A38` | `232 74 56` | Errors, locked states |
 
 ### Terminal Color Mapping
 
 #### Standard Colors (0-7)
 - **Black (0)**: `#2A1810` - Walnut
-- **Red (1)**: `#E84A38` - Rust Red
+- **Red (1)**: `#E84A38` - Persimmon
 - **Green (2)**: `#79966d` - Avocado Green
 - **Yellow (3)**: `#E9A131` - Harvest Gold
-- **Blue (4)**: `#5B7C99` - Slate Blue
-- **Magenta (5)**: `#D3BE47` - Mustard Yellow
-- **Cyan (6)**: `#5B7C99` - Slate Blue
-- **White (7)**: `#F4DDB3` - Tan/Beige
+- **Blue (4)**: `#5B7C99` - Denim Blue
+- **Magenta (5)**: `#D3BE47` - Lava Gold
+- **Cyan (6)**: `#5B7C99` - Denim Blue
+- **White (7)**: `#F4DDB3` - Almond
 
 #### Bright Colors (8-15)
 - **Bright Black (8)**: `#84563B` - Light Brown
 - **Bright Red (9)**: `#F67422` - Burnt Orange
 - **Bright Green (10)**: `#9BB589` - Light Avocado
 - **Bright Yellow (11)**: `#F1C760` - Light Harvest Gold
-- **Bright Blue (12)**: `#7A96B0` - Light Slate Blue
-- **Bright Magenta (13)**: `#E1D36B` - Light Mustard
-- **Bright Cyan (14)**: `#7A96B0` - Light Slate Blue
-- **Bright White (15)**: `#FCF0DC` - Light Tan
+- **Bright Blue (12)**: `#7A96B0` - Light Denim Blue
+- **Bright Magenta (13)**: `#E1D36B` - Light Lava Gold
+- **Bright Cyan (14)**: `#7A96B0` - Light Denim Blue
+- **Bright White (15)**: `#FCF0DC` - Light Almond
 
 #### UI Colors
-- **Foreground**: `#F4DDB3` - Tan/Beige
+- **Foreground**: `#F4DDB3` - Almond
 - **Background**: `#2A1810` - Walnut
 - **Cursor**: `#E9A131` - Harvest Gold
-- **Selection Background**: `#D3BE47` - Mustard Yellow
+- **Selection Background**: `#D3BE47` - Lava Gold
 - **Selection Foreground**: `#2A1810` - Walnut
 
 ## Installation

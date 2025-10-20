@@ -14,13 +14,13 @@
 #
 # Color Palette:
 #   Walnut:        #2A1810 (primary background)
-#   Tan/Beige:     #F4DDB3 (primary text)
+#   Almond:        #F4DDB3 (primary text)
 #   Harvest Gold:  #E9A131 (highlights)
 #   Burnt Orange:  #F67422 (emphasis)
 #   Avocado Green: #79966d (success/added)
-#   Slate Blue:    #5B7C99 (info)
-#   Mustard Yellow:#D3BE47 (selections)
-#   Rust Red:      #E84A38 (errors/removed)
+#   Denim Blue:    #5B7C99 (info)
+#   Lava Gold:     #D3BE47 (selections)
+#   Persimmon:     #E84A38 (errors/removed)
 #   Chocolate:     #5F3822 (secondary background)
 
 [delta "rumpus"]
@@ -31,13 +31,13 @@
     # Define custom colors for theme consistency
     rumpus-walnut = "#2A1810"
     rumpus-chocolate = "#5F3822"
-    rumpus-tan = "#F4DDB3"
+    rumpus-almond = "#F4DDB3"
     rumpus-harvest-gold = "#E9A131"
     rumpus-burnt-orange = "#F67422"
     rumpus-avocado = "#79966d"
-    rumpus-slate = "#5B7C99"
-    rumpus-mustard = "#D3BE47"
-    rumpus-rust = "#E84A38"
+    rumpus-denim-blue = "#5B7C99"
+    rumpus-lava-gold = "#D3BE47"
+    rumpus-persimmon = "#E84A38"
     rumpus-light-avocado = "#9BB589"
     rumpus-light-brown = "#84563B"
 
@@ -53,16 +53,16 @@
     commit-style = "bold rumpus.rumpus-burnt-orange"
     commit-decoration-style = "rumpus.rumpus-burnt-orange ol"
 
-    # Hunk headers - use slate blue for context
-    hunk-header-style = "file line-number rumpus.rumpus-slate"
+    # Hunk headers - use denim blue for context
+    hunk-header-style = "file line-number rumpus.rumpus-denim-blue"
     hunk-header-decoration-style = "rumpus.rumpus-chocolate box"
     hunk-header-file-style = "rumpus.rumpus-harvest-gold"
-    hunk-header-line-number-style = "rumpus.rumpus-mustard"
+    hunk-header-line-number-style = "rumpus.rumpus-lava-gold"
 
-    # Removed lines (minus) - rust red background with tan text
-    minus-style = "normal rumpus.rumpus-rust"
+    # Removed lines (minus) - persimmon background with almond text
+    minus-style = "normal rumpus.rumpus-persimmon"
     minus-non-emph-style = "normal rumpus.rumpus-chocolate"
-    minus-emph-style = "bold rumpus.rumpus-tan rumpus.rumpus-rust"
+    minus-emph-style = "bold rumpus.rumpus-almond rumpus.rumpus-persimmon"
     minus-empty-line-marker-style = "normal rumpus.rumpus-chocolate"
 
     # Added lines (plus) - avocado green background with walnut text
@@ -73,7 +73,7 @@
 
     # Line numbers
     line-numbers = true
-    line-numbers-minus-style = "rumpus.rumpus-rust"
+    line-numbers-minus-style = "rumpus.rumpus-persimmon"
     line-numbers-plus-style = "rumpus.rumpus-avocado"
     line-numbers-zero-style = "rumpus.rumpus-light-brown"
     line-numbers-left-style = "rumpus.rumpus-light-brown"
@@ -84,11 +84,11 @@
     # Merge conflicts
     merge-conflict-begin-symbol = "⌃"
     merge-conflict-end-symbol = "⌄"
-    merge-conflict-ours-diff-header-style = "rumpus.rumpus-mustard"
-    merge-conflict-theirs-diff-header-style = "rumpus.rumpus-slate"
+    merge-conflict-ours-diff-header-style = "rumpus.rumpus-lava-gold"
+    merge-conflict-theirs-diff-header-style = "rumpus.rumpus-denim-blue"
 
     # Whitespace error handling
-    whitespace-error-style = "reverse rumpus.rumpus-rust"
+    whitespace-error-style = "reverse rumpus.rumpus-persimmon"
 
     # Blame colors
     blame-palette = "#2A1810 #5F3822 #79966d #5B7C99"

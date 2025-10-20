@@ -3,29 +3,29 @@
 
 # UI Elements
 "ui.background" = { bg = "walnut" }
-"ui.text" = "tan"
+"ui.text" = "almond"
 "ui.text.focus" = { fg = "harvest-gold", modifiers = ["bold"] }
 "ui.cursor" = { fg = "walnut", bg = "harvest-gold" }
-"ui.cursor.match" = { fg = "walnut", bg = "mustard-yellow" }
+"ui.cursor.match" = { fg = "walnut", bg = "lava-gold" }
 "ui.cursor.primary" = { fg = "walnut", bg = "harvest-gold" }
-"ui.selection" = { fg = "walnut", bg = "mustard-yellow" }
+"ui.selection" = { fg = "walnut", bg = "lava-gold" }
 "ui.linenr" = "chocolate-brown"
 "ui.linenr.selected" = { fg = "harvest-gold", modifiers = ["bold"] }
 "ui.cursorline" = { bg = "chocolate-brown" }
 
 # Statusline
-"ui.statusline" = { fg = "tan", bg = "chocolate-brown" }
-"ui.statusline.inactive" = { fg = "slate-blue", bg = "chocolate-brown" }
+"ui.statusline" = { fg = "almond", bg = "chocolate-brown" }
+"ui.statusline.inactive" = { fg = "denim-blue", bg = "chocolate-brown" }
 "ui.statusline.normal" = { fg = "walnut", bg = "harvest-gold" }
 "ui.statusline.insert" = { fg = "walnut", bg = "avocado-green" }
-"ui.statusline.select" = { fg = "walnut", bg = "mustard-yellow" }
+"ui.statusline.select" = { fg = "walnut", bg = "lava-gold" }
 
 # Popups and menus
-"ui.popup" = { fg = "tan", bg = "chocolate-brown" }
+"ui.popup" = { fg = "almond", bg = "chocolate-brown" }
 "ui.window" = { fg = "chocolate-brown" }
-"ui.menu" = { fg = "tan", bg = "chocolate-brown" }
+"ui.menu" = { fg = "almond", bg = "chocolate-brown" }
 "ui.menu.selected" = { fg = "walnut", bg = "harvest-gold" }
-"ui.help" = { fg = "tan", bg = "chocolate-brown" }
+"ui.help" = { fg = "almond", bg = "chocolate-brown" }
 
 # Virtual elements
 "ui.virtual.whitespace" = "chocolate-brown"
@@ -36,49 +36,49 @@
 "ui.gutter" = { bg = "walnut" }
 
 # Diagnostics
-"error" = "rust-red"
-"warning" = "mustard-yellow"
-"info" = "slate-blue"
+"error" = "persimmon"
+"warning" = "lava-gold"
+"info" = "denim-blue"
 "hint" = "avocado-green"
 
-"diagnostic.error" = { underline = { color = "rust-red", style = "curl" } }
-"diagnostic.warning" = { underline = { color = "mustard-yellow", style = "curl" } }
-"diagnostic.info" = { underline = { color = "slate-blue", style = "curl" } }
+"diagnostic.error" = { underline = { color = "persimmon", style = "curl" } }
+"diagnostic.warning" = { underline = { color = "lava-gold", style = "curl" } }
+"diagnostic.info" = { underline = { color = "denim-blue", style = "curl" } }
 "diagnostic.hint" = { underline = { color = "avocado-green", style = "curl" } }
 
 # Syntax highlighting
-"comment" = { fg = "slate-blue", modifiers = ["italic"] }
-"constant" = "mustard-yellow"
-"constant.builtin" = "mustard-yellow"
-"constant.character" = "avocado-green"
+"comment" = { fg = "denim-blue", modifiers = ["italic"] }
+"consalmondt" = "lava-gold"
+"consalmondt.builtin" = "lava-gold"
+"consalmondt.character" = "avocado-green"
 "string" = "avocado-green"
-"number" = "mustard-yellow"
-"boolean" = "mustard-yellow"
+"number" = "lava-gold"
+"boolean" = "lava-gold"
 
-"attribute" = "slate-blue"
+"attribute" = "denim-blue"
 "type" = "harvest-gold"
 "type.builtin" = "harvest-gold"
 "constructor" = "harvest-gold"
 
-"function" = "slate-blue"
-"function.builtin" = "slate-blue"
+"function" = "denim-blue"
+"function.builtin" = "denim-blue"
 "function.macro" = "burnt-orange"
 
 "keyword" = "burnt-orange"
 "keyword.control" = "burnt-orange"
 "keyword.operator" = "burnt-orange"
-"operator" = "slate-blue"
+"operator" = "denim-blue"
 
-"variable" = "tan"
-"variable.parameter" = "tan"
+"variable" = "almond"
+"variable.parameter" = "almond"
 "variable.builtin" = "harvest-gold"
 
 "label" = "burnt-orange"
 "namespace" = "harvest-gold"
 
-"punctuation" = "tan"
-"punctuation.bracket" = "tan"
-"punctuation.delimiter" = "tan"
+"punctuation" = "almond"
+"punctuation.bracket" = "almond"
+"punctuation.delimiter" = "almond"
 
 "special" = "burnt-orange"
 
@@ -87,24 +87,24 @@
 "markup.list" = "harvest-gold"
 "markup.bold" = { modifiers = ["bold"] }
 "markup.italic" = { modifiers = ["italic"] }
-"markup.link.url" = { fg = "slate-blue", underline = { style = "line" } }
+"markup.link.url" = { fg = "denim-blue", underline = { style = "line" } }
 "markup.link.text" = "avocado-green"
 "markup.quote" = "avocado-green"
-"markup.raw" = "mustard-yellow"
+"markup.raw" = "lava-gold"
 
 # Diff
 "diff.plus" = "avocado-green"
-"diff.minus" = "rust-red"
+"diff.minus" = "persimmon"
 "diff.delta" = "burnt-orange"
 
 [palette]
 # Primary colors
 walnut = "#2A1810"
 chocolate-brown = "#5F3822"
-tan = "#F4DDB3"
+almond = "#F4DDB3"
 harvest-gold = "#E9A131"
 burnt-orange = "#F67422"
 avocado-green = "#79966d"
-slate-blue = "#5B7C99"
-mustard-yellow = "#D3BE47"
-rust-red = "#E84A38"
+denim-blue = "#5B7C99"
+lava-gold = "#D3BE47"
+persimmon = "#E84A38"

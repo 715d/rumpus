@@ -14,13 +14,13 @@ A warm, earthy color scheme inspired by 1970s rumpus rooms and mid-century moder
 
 **Primary Colors:**
 - Walnut (#2A1810) - Background
-- Tan/Beige (#F4DDB3) - Foreground
+- Almond (#F4DDB3) - Foreground
 - Harvest Gold (#E9A131) - Highlights, Functions
 - Burnt Orange (#F67422) - Keywords, Emphasis
 - Avocado Green (#79966d) - Strings, Success
-- Slate Blue (#5B7C99) - Operators, Properties
-- Mustard Yellow (#D3BE47) - Types, Numbers
-- Rust Red (#E84A38) - Errors
+- Denim Blue (#5B7C99) - Operators, Properties
+- Lava Gold (#D3BE47) - Types, Numbers
+- Persimmon (#E84A38) - Errors
 
 ## Installation
 
