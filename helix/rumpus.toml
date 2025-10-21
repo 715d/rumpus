@@ -5,13 +5,26 @@
 "ui.background" = { bg = "walnut" }
 "ui.text" = "almond"
 "ui.text.focus" = { fg = "harvest-gold", modifiers = ["bold"] }
+"ui.text.inactive" = { fg = "chocolate-brown" }
+"ui.text.info" = "denim-blue"
 "ui.cursor" = { fg = "walnut", bg = "harvest-gold" }
-"ui.cursor.match" = { fg = "walnut", bg = "lava-gold" }
+"ui.cursor.normal" = { fg = "walnut", bg = "harvest-gold" }
+"ui.cursor.insert" = { fg = "walnut", bg = "avocado-green" }
+"ui.cursor.select" = { fg = "walnut", bg = "lava-gold" }
+"ui.cursor.match" = { fg = "walnut", bg = "denim-blue" }
 "ui.cursor.primary" = { fg = "walnut", bg = "harvest-gold" }
+"ui.cursor.primary.normal" = { fg = "walnut", bg = "harvest-gold" }
+"ui.cursor.primary.insert" = { fg = "walnut", bg = "avocado-green" }
+"ui.cursor.primary.select" = { fg = "walnut", bg = "lava-gold" }
 "ui.selection" = { fg = "walnut", bg = "lava-gold" }
+"ui.selection.primary" = { fg = "walnut", bg = "lava-gold" }
 "ui.linenr" = "chocolate-brown"
 "ui.linenr.selected" = { fg = "harvest-gold", modifiers = ["bold"] }
 "ui.cursorline" = { bg = "chocolate-brown" }
+"ui.cursorline.primary" = { bg = "chocolate-brown" }
+"ui.cursorline.secondary" = { bg = "chocolate-brown" }
+"ui.cursorcolumn.primary" = { bg = "chocolate-brown" }
+"ui.cursorcolumn.secondary" = { bg = "chocolate-brown" }
 
 # Statusline
 "ui.statusline" = { fg = "almond", bg = "chocolate-brown" }
@@ -19,21 +32,41 @@
 "ui.statusline.normal" = { fg = "walnut", bg = "harvest-gold" }
 "ui.statusline.insert" = { fg = "walnut", bg = "avocado-green" }
 "ui.statusline.select" = { fg = "walnut", bg = "lava-gold" }
+"ui.statusline.separator" = { fg = "chocolate-brown" }
+
+# Bufferline
+"ui.bufferline" = { fg = "almond", bg = "chocolate-brown" }
+"ui.bufferline.active" = { fg = "walnut", bg = "harvest-gold" }
+"ui.bufferline.background" = { bg = "walnut" }
 
 # Popups and menus
 "ui.popup" = { fg = "almond", bg = "chocolate-brown" }
+"ui.popup.info" = { fg = "almond", bg = "chocolate-brown" }
 "ui.window" = { fg = "chocolate-brown" }
 "ui.menu" = { fg = "almond", bg = "chocolate-brown" }
 "ui.menu.selected" = { fg = "walnut", bg = "harvest-gold" }
+"ui.menu.scroll" = { fg = "harvest-gold", bg = "chocolate-brown" }
 "ui.help" = { fg = "almond", bg = "chocolate-brown" }
 
 # Virtual elements
 "ui.virtual.whitespace" = "chocolate-brown"
 "ui.virtual.ruler" = { bg = "chocolate-brown" }
 "ui.virtual.indent-guide" = "chocolate-brown"
+"ui.virtual.inlay-hint" = { fg = "chocolate-brown" }
+"ui.virtual.inlay-hint.parameter" = { fg = "chocolate-brown" }
+"ui.virtual.inlay-hint.type" = { fg = "chocolate-brown" }
+"ui.virtual.wrap" = { fg = "chocolate-brown" }
+"ui.virtual.jump-label" = { fg = "persimmon", modifiers = ["bold"] }
 
 # Gutter
 "ui.gutter" = { bg = "walnut" }
+"ui.gutter.selected" = { bg = "chocolate-brown" }
+
+# Debug
+"ui.debug.breakpoint" = "persimmon"
+"ui.debug.active" = "lava-gold"
+"ui.highlight" = { bg = "chocolate-brown" }
+"ui.highlight.frameline" = { bg = "chocolate-brown" }
 
 # Diagnostics
 "error" = "persimmon"
@@ -41,61 +74,148 @@
 "info" = "denim-blue"
 "hint" = "avocado-green"
 
+"diagnostic" = { underline = { style = "curl" } }
 "diagnostic.error" = { underline = { color = "persimmon", style = "curl" } }
 "diagnostic.warning" = { underline = { color = "lava-gold", style = "curl" } }
 "diagnostic.info" = { underline = { color = "denim-blue", style = "curl" } }
 "diagnostic.hint" = { underline = { color = "avocado-green", style = "curl" } }
+"diagnostic.unnecessary" = { modifiers = ["dim"] }
+"diagnostic.deprecated" = { modifiers = ["crossed_out"] }
 
-# Syntax highlighting
+# Syntax highlighting - Comments
 "comment" = { fg = "denim-blue", modifiers = ["italic"] }
-"consalmondt" = "lava-gold"
-"consalmondt.builtin" = "lava-gold"
-"consalmondt.character" = "avocado-green"
+"comment.line" = { fg = "denim-blue", modifiers = ["italic"] }
+"comment.line.documentation" = { fg = "denim-blue", modifiers = ["italic"] }
+"comment.block" = { fg = "denim-blue", modifiers = ["italic"] }
+"comment.block.documentation" = { fg = "denim-blue", modifiers = ["italic"] }
+
+# Syntax highlighting - Constants
+"constant" = "lava-gold"
+"constant.builtin" = "lava-gold"
+"constant.builtin.boolean" = "lava-gold"
+"constant.character" = "avocado-green"
+"constant.character.escape" = "burnt-orange"
+"constant.numeric" = "lava-gold"
+"constant.numeric.integer" = "lava-gold"
+"constant.numeric.float" = "lava-gold"
+
+# Syntax highlighting - Strings
 "string" = "avocado-green"
+"string.regexp" = "avocado-green"
+"string.special" = "burnt-orange"
+"string.special.path" = "avocado-green"
+"string.special.url" = { fg = "denim-blue", underline = { style = "line" } }
+"string.special.symbol" = "harvest-gold"
+
+# Syntax highlighting - Numbers and Booleans
 "number" = "lava-gold"
 "boolean" = "lava-gold"
 
+# Syntax highlighting - Attributes
 "attribute" = "denim-blue"
+
+# Syntax highlighting - Types
 "type" = "harvest-gold"
 "type.builtin" = "harvest-gold"
+"type.parameter" = "harvest-gold"
+"type.enum" = "harvest-gold"
+"type.enum.variant" = "harvest-gold"
 "constructor" = "harvest-gold"
 
+# Syntax highlighting - Functions
 "function" = "denim-blue"
 "function.builtin" = "denim-blue"
+"function.method" = "denim-blue"
+"function.method.private" = "denim-blue"
 "function.macro" = "burnt-orange"
+"function.special" = "burnt-orange"
 
+# Syntax highlighting - Keywords
 "keyword" = "burnt-orange"
 "keyword.control" = "burnt-orange"
+"keyword.control.conditional" = "burnt-orange"
+"keyword.control.repeat" = "burnt-orange"
+"keyword.control.import" = "burnt-orange"
+"keyword.control.return" = "burnt-orange"
+"keyword.control.exception" = "burnt-orange"
 "keyword.operator" = "burnt-orange"
+"keyword.directive" = "burnt-orange"
+"keyword.function" = "burnt-orange"
+"keyword.storage" = "burnt-orange"
+"keyword.storage.type" = "burnt-orange"
+"keyword.storage.modifier" = "burnt-orange"
+
+# Syntax highlighting - Operators
 "operator" = "denim-blue"
 
+# Syntax highlighting - Variables
 "variable" = "almond"
 "variable.parameter" = "almond"
 "variable.builtin" = "harvest-gold"
+"variable.other" = "almond"
+"variable.other.member" = "almond"
+"variable.other.member.private" = "almond"
 
+# Syntax highlighting - Labels and Namespaces
 "label" = "burnt-orange"
 "namespace" = "harvest-gold"
 
+# Syntax highlighting - Punctuation
 "punctuation" = "almond"
 "punctuation.bracket" = "almond"
 "punctuation.delimiter" = "almond"
+"punctuation.special" = "burnt-orange"
 
+# Syntax highlighting - Special
 "special" = "burnt-orange"
+
+# Syntax highlighting - Tags (HTML/XML)
+"tag" = "burnt-orange"
+"tag.builtin" = "burnt-orange"
 
 # Markup
 "markup.heading" = { fg = "burnt-orange", modifiers = ["bold"] }
+"markup.heading.marker" = { fg = "burnt-orange", modifiers = ["bold"] }
+"markup.heading.1" = { fg = "burnt-orange", modifiers = ["bold"] }
+"markup.heading.2" = { fg = "burnt-orange", modifiers = ["bold"] }
+"markup.heading.3" = { fg = "burnt-orange", modifiers = ["bold"] }
+"markup.heading.4" = { fg = "burnt-orange", modifiers = ["bold"] }
+"markup.heading.5" = { fg = "burnt-orange", modifiers = ["bold"] }
+"markup.heading.6" = { fg = "burnt-orange", modifiers = ["bold"] }
 "markup.list" = "harvest-gold"
+"markup.list.unnumbered" = "harvest-gold"
+"markup.list.numbered" = "harvest-gold"
+"markup.list.checked" = "avocado-green"
+"markup.list.unchecked" = "lava-gold"
 "markup.bold" = { modifiers = ["bold"] }
 "markup.italic" = { modifiers = ["italic"] }
+"markup.strikethrough" = { modifiers = ["crossed_out"] }
 "markup.link.url" = { fg = "denim-blue", underline = { style = "line" } }
+"markup.link.label" = "avocado-green"
 "markup.link.text" = "avocado-green"
 "markup.quote" = "avocado-green"
 "markup.raw" = "lava-gold"
+"markup.raw.inline" = "lava-gold"
+"markup.raw.block" = "lava-gold"
+"markup.normal.completion" = "almond"
+"markup.normal.hover" = "almond"
 
 # Diff
 "diff.plus" = "avocado-green"
+"diff.plus.gutter" = "avocado-green"
 "diff.minus" = "persimmon"
+"diff.minus.gutter" = "persimmon"
 "diff.delta" = "burnt-orange"
+"diff.delta.moved" = "denim-blue"
+"diff.delta.conflict" = "persimmon"
+"diff.delta.gutter" = "burnt-orange"
+
+# Rainbow brackets (optional)
+"rainbow.0" = "harvest-gold"
+"rainbow.1" = "burnt-orange"
+"rainbow.2" = "avocado-green"
+"rainbow.3" = "denim-blue"
+"rainbow.4" = "lava-gold"
 
 [palette]
 # Primary colors
