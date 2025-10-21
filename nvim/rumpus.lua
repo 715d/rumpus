@@ -15,6 +15,7 @@ local colors = {
   -- Primary colors
   walnut = "#2A1810",
   chocolate_brown = "#5F3822",
+  cork = "#98755f",
   almond = "#F4DDB3",
   harvest_gold = "#E9A131",
   burnt_orange = "#F67422",
@@ -39,11 +40,12 @@ local colors = {
   fg_bright = "#FCF0DC",
   cursor = "#E9A131",
   selection = "#D3BE47",
-  comment = "#84563B",
+  comment = "#98755f",
   string = "#79966d",
   keyword = "#F67422",
-  func = "#5B7C99",
-  operator = "#5B7C99",
+  func = "#E9A131",
+  type_color = "#5B7C99",
+  operator = "#F4DDB3",
   warning = "#D3BE47",
   error = "#E84A38",
   info = "#5B7C99",
@@ -123,7 +125,7 @@ hl("WinBar", { link = "StatusLine" })
 hl("WinBarNC", { link = "StatusLineNC" })
 
 -- Syntax highlighting
-hl("Comment", { fg = colors.light_brown, italic = true })
+hl("Comment", { fg = colors.cork, italic = true })
 hl("Constant", { fg = colors.harvest_gold })
 hl("String", { fg = colors.avocado_green })
 hl("Character", { fg = colors.avocado_green })
@@ -131,12 +133,12 @@ hl("Number", { fg = colors.harvest_gold })
 hl("Boolean", { fg = colors.harvest_gold })
 hl("Float", { fg = colors.harvest_gold })
 hl("Identifier", { fg = colors.fg })
-hl("Function", { fg = colors.denim_blue })
+hl("Function", { fg = colors.harvest_gold })
 hl("Statement", { fg = colors.burnt_orange })
 hl("Conditional", { fg = colors.burnt_orange })
 hl("Repeat", { fg = colors.burnt_orange })
 hl("Label", { fg = colors.burnt_orange })
-hl("Operator", { fg = colors.denim_blue })
+hl("Operator", { fg = colors.almond })
 hl("Keyword", { fg = colors.burnt_orange, bold = true })
 hl("Exception", { fg = colors.persimmon })
 hl("PreProc", { fg = colors.burnt_orange })
@@ -144,15 +146,15 @@ hl("Include", { fg = colors.burnt_orange })
 hl("Define", { fg = colors.burnt_orange })
 hl("Macro", { fg = colors.burnt_orange })
 hl("PreCondit", { fg = colors.burnt_orange })
-hl("Type", { fg = colors.lava_gold })
+hl("Type", { fg = colors.denim_blue })
 hl("StorageClass", { fg = colors.burnt_orange })
-hl("Structure", { fg = colors.lava_gold })
-hl("Typedef", { fg = colors.lava_gold })
+hl("Structure", { fg = colors.denim_blue })
+hl("Typedef", { fg = colors.denim_blue })
 hl("Special", { fg = colors.harvest_gold })
 hl("SpecialChar", { fg = colors.harvest_gold })
 hl("Tag", { fg = colors.denim_blue })
 hl("Delimiter", { fg = colors.fg })
-hl("SpecialComment", { fg = colors.light_brown, italic = true })
+hl("SpecialComment", { fg = colors.cork, italic = true })
 hl("Debug", { fg = colors.persimmon })
 hl("Underlined", { fg = colors.denim_blue, underline = true })
 hl("Ignore", { fg = colors.chocolate_brown })
@@ -162,7 +164,7 @@ hl("Todo", { fg = colors.bg, bg = colors.lava_gold, bold = true })
 -- Treesitter syntax groups
 hl("@variable", { fg = colors.fg })
 hl("@variable.builtin", { fg = colors.harvest_gold })
-hl("@variable.parameter", { fg = colors.light_almond })
+hl("@variable.parameter", { fg = colors.fg, italic = true })
 hl("@variable.member", { fg = colors.fg })
 hl("@constant", { fg = colors.harvest_gold })
 hl("@constant.builtin", { fg = colors.harvest_gold })
@@ -179,19 +181,19 @@ hl("@character.special", { fg = colors.harvest_gold })
 hl("@number", { fg = colors.harvest_gold })
 hl("@number.float", { fg = colors.harvest_gold })
 hl("@boolean", { fg = colors.harvest_gold })
-hl("@type", { fg = colors.lava_gold })
-hl("@type.builtin", { fg = colors.lava_gold })
-hl("@type.definition", { fg = colors.lava_gold })
+hl("@type", { fg = colors.denim_blue })
+hl("@type.builtin", { fg = colors.denim_blue })
+hl("@type.definition", { fg = colors.denim_blue })
 hl("@attribute", { fg = colors.burnt_orange })
 hl("@property", { fg = colors.fg })
-hl("@function", { fg = colors.denim_blue })
-hl("@function.builtin", { fg = colors.denim_blue })
-hl("@function.call", { fg = colors.denim_blue })
+hl("@function", { fg = colors.harvest_gold })
+hl("@function.builtin", { fg = colors.harvest_gold })
+hl("@function.call", { fg = colors.harvest_gold })
 hl("@function.macro", { fg = colors.burnt_orange })
-hl("@function.method", { fg = colors.denim_blue })
-hl("@function.method.call", { fg = colors.denim_blue })
-hl("@constructor", { fg = colors.lava_gold })
-hl("@operator", { fg = colors.denim_blue })
+hl("@function.method", { fg = colors.harvest_gold })
+hl("@function.method.call", { fg = colors.harvest_gold })
+hl("@constructor", { fg = colors.denim_blue })
+hl("@operator", { fg = colors.almond })
 hl("@keyword", { fg = colors.burnt_orange, bold = true })
 hl("@keyword.coroutine", { fg = colors.burnt_orange })
 hl("@keyword.function", { fg = colors.burnt_orange, bold = true })
@@ -210,8 +212,8 @@ hl("@keyword.directive.define", { fg = colors.burnt_orange })
 hl("@punctuation.delimiter", { fg = colors.fg })
 hl("@punctuation.bracket", { fg = colors.fg })
 hl("@punctuation.special", { fg = colors.harvest_gold })
-hl("@comment", { fg = colors.light_brown, italic = true })
-hl("@comment.documentation", { fg = colors.light_brown, italic = true })
+hl("@comment", { fg = colors.cork, italic = true })
+hl("@comment.documentation", { fg = colors.cork, italic = true })
 hl("@comment.error", { fg = colors.persimmon, bold = true })
 hl("@comment.warning", { fg = colors.lava_gold, bold = true })
 hl("@comment.todo", { fg = colors.bg, bg = colors.lava_gold, bold = true })

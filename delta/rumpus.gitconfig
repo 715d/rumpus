@@ -14,6 +14,7 @@
 #
 # Color Palette:
 #   Walnut:        #2A1810 (primary background)
+#   Cork:          #98755f (comments, inactive elements)
 #   Almond:        #F4DDB3 (primary text)
 #   Harvest Gold:  #E9A131 (highlights)
 #   Burnt Orange:  #F67422 (emphasis)
@@ -39,7 +40,7 @@
     rumpus-lava-gold = "#D3BE47"
     rumpus-persimmon = "#E84A38"
     rumpus-light-avocado = "#9BB589"
-    rumpus-light-brown = "#84563B"
+    rumpus-cork = "#98755f"
 
     # File headers - use harvest gold for file names
     file-style = "bold rumpus.rumpus-harvest-gold"
@@ -75,9 +76,9 @@
     line-numbers = true
     line-numbers-minus-style = "rumpus.rumpus-persimmon"
     line-numbers-plus-style = "rumpus.rumpus-avocado"
-    line-numbers-zero-style = "rumpus.rumpus-light-brown"
-    line-numbers-left-style = "rumpus.rumpus-light-brown"
-    line-numbers-right-style = "rumpus.rumpus-light-brown"
+    line-numbers-zero-style = "rumpus.rumpus-cork"
+    line-numbers-left-style = "rumpus.rumpus-cork"
+    line-numbers-right-style = "rumpus.rumpus-cork"
     line-numbers-left-format = "{nm:>4}│"
     line-numbers-right-format = "{np:>4}│"
 

@@ -20,11 +20,12 @@ A warm, earthy terminal color scheme inspired by 1970s rumpus rooms and mid-cent
 |-------|-----|-----|-------|
 | Walnut | `#2A1810` | `42 24 16` | Primary background |
 | Chocolate Brown | `#5F3822` | `95 56 34` | Secondary background, dark accent |
+| Cork | `#98755f` | `152 117 95` | Comments, inactive UI elements |
 | Almond | `#F4DDB3` | `244 221 179` | Primary text |
 | Harvest Gold | `#E9A131` | `233 161 49` | Highlights, active elements |
 | Burnt Orange | `#F67422` | `246 116 34` | Emphasis, keywords |
 | Avocado Green | `#79966d` | `121 150 109` | Success, strings |
-| Denim Blue | `#5B7C99` | `91 124 153` | Information, operators |
+| Denim Blue | `#5B7C99` | `91 124 153` | Information, types |
 | Lava Gold | `#D3BE47` | `211 190 71` | Selections, warnings |
 | Persimmon | `#E84A38` | `232 74 56` | Errors, locked states |
 

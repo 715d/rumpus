@@ -35,7 +35,7 @@
 				<key>guide</key>
 				<string>#5F3822</string>
 				<key>activeGuide</key>
-				<string>#84563B</string>
+				<string>#98755f</string>
 				<key>stackGuide</key>
 				<string>#5F3822</string>
 				<key>bracketsForeground</key>
@@ -53,7 +53,7 @@
 				<key>gutter</key>
 				<string>#2A1810</string>
 				<key>gutterForeground</key>
-				<string>#84563B</string>
+				<string>#98755f</string>
 			</dict>
 		</dict>
 
@@ -66,7 +66,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#5B7C99</string>
+				<string>#98755f</string>
 				<key>fontStyle</key>
 				<string>italic</string>
 			</dict>
@@ -223,7 +223,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#5B7C99</string>
+				<string>#F4DDB3</string>
 			</dict>
 		</dict>
 
@@ -270,6 +270,8 @@
 			<dict>
 				<key>foreground</key>
 				<string>#F4DDB3</string>
+				<key>fontStyle</key>
+				<string>italic</string>
 			</dict>
 		</dict>
 
@@ -282,7 +284,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#E9A131</string>
+				<string>#5B7C99</string>
 				<key>fontStyle</key>
 				<string>bold</string>
 			</dict>
@@ -295,7 +297,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#D3BE47</string>
+				<string>#5B7C99</string>
 			</dict>
 		</dict>
 		<dict>
@@ -306,7 +308,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#E9A131</string>
+				<string>#5B7C99</string>
 			</dict>
 		</dict>
 		<dict>
