@@ -17,25 +17,25 @@
         "surface.background": "#2A1810",
         "background": "#2A1810",
         "element.background": "#5F3822",
-        "element.hover": "#98755f",
+        "element.hover": "#A07D67",
         "element.active": "#E9A131",
         "element.selected": "#D3BE47",
         "element.disabled": "#5F3822",
         "drop_target.background": "#E9A13180",
         "ghost_element.background": "#00000000",
-        "ghost_element.hover": "#98755f",
+        "ghost_element.hover": "#A07D67",
         "ghost_element.active": "#E9A131",
         "ghost_element.selected": "#D3BE47",
         "ghost_element.disabled": "#5F3822",
         "text": "#F4DDB3",
-        "text.muted": "#98755f",
-        "text.placeholder": "#98755f",
+        "text.muted": "#A07D67",
+        "text.placeholder": "#A07D67",
         "text.disabled": "#5F3822",
         "text.accent": "#E9A131",
         "icon": "#F4DDB3",
-        "icon.muted": "#98755f",
+        "icon.muted": "#A07D67",
         "icon.disabled": "#5F3822",
-        "icon.placeholder": "#98755f",
+        "icon.placeholder": "#A07D67",
         "icon.accent": "#E9A131",
         "status_bar.background": "#2A1810",
         "title_bar.background": "#2A1810",
@@ -47,7 +47,7 @@
         "panel.background": "#2A1810",
         "panel.focused_border": "#E9A131",
         "pane.focused_border": "#E9A131",
-        "scrollbar.thumb.background": "#98755f",
+        "scrollbar.thumb.background": "#A07D67",
         "scrollbar.thumb.hover_background": "#5F3822",
         "scrollbar.thumb.border": "#00000000",
         "scrollbar.track.background": "#2A1810",
@@ -56,49 +56,49 @@
         "editor.background": "#2A1810",
         "editor.gutter.background": "#2A1810",
         "editor.subheader.background": "#2A1810",
-        "editor.active_line.background": "#5F3822",
-        "editor.highlighted_line.background": "#5F3822",
-        "editor.line_number": "#98755f",
+        "editor.active_line.background": "#2A1810",
+        "editor.highlighted_line.background": "#2A1810",
+        "editor.line_number": "#A07D67",
         "editor.active_line_number": "#E9A131",
         "editor.invisible": "#5F3822",
         "editor.wrap_guide": "#5F3822",
-        "editor.active_wrap_guide": "#98755f",
+        "editor.active_wrap_guide": "#A07D67",
         "editor.document_highlight.read_background": "#E9A13130",
         "editor.document_highlight.write_background": "#D3BE4730",
-        "link_text.hover": "#5B7C99",
+        "link_text.hover": "#6687A4",
         "conflict": "#D3BE47",
         "conflict.background": "#D3BE4730",
         "conflict.border": "#D3BE47",
         "created": "#79966d",
         "created.background": "#79966d30",
         "created.border": "#79966d",
-        "deleted": "#E84A38",
-        "deleted.background": "#E84A3830",
-        "deleted.border": "#E84A38",
-        "error": "#E84A38",
-        "error.background": "#E84A3830",
-        "error.border": "#E84A38",
+        "deleted": "#E84E3C",
+        "deleted.background": "#E84E3C30",
+        "deleted.border": "#E84E3C",
+        "error": "#E84E3C",
+        "error.background": "#E84E3C30",
+        "error.border": "#E84E3C",
         "hidden": "#84563B",
         "hidden.background": "#2A1810",
         "hidden.border": "#5F3822",
-        "hint": "#5B7C99",
-        "hint.background": "#5B7C9930",
-        "hint.border": "#5B7C99",
+        "hint": "#6687A4",
+        "hint.background": "#6687A430",
+        "hint.border": "#6687A4",
         "ignored": "#84563B",
         "ignored.background": "#2A1810",
         "ignored.border": "#5F3822",
-        "info": "#5B7C99",
-        "info.background": "#5B7C9930",
-        "info.border": "#5B7C99",
+        "info": "#6687A4",
+        "info.background": "#6687A430",
+        "info.border": "#6687A4",
         "modified": "#E9A131",
         "modified.background": "#E9A13130",
         "modified.border": "#E9A131",
         "predictive": "#79966d",
         "predictive.background": "#79966d30",
         "predictive.border": "#79966d",
-        "renamed": "#5B7C99",
-        "renamed.background": "#5B7C9930",
-        "renamed.border": "#5B7C99",
+        "renamed": "#6687A4",
+        "renamed.background": "#6687A430",
+        "renamed.border": "#6687A4",
         "success": "#79966d",
         "success.background": "#79966d30",
         "success.border": "#79966d",
@@ -125,9 +125,9 @@
             "selection": "#79966d80"
           },
           {
-            "cursor": "#5B7C99",
-            "background": "#5B7C99",
-            "selection": "#5B7C9980"
+            "cursor": "#6687A4",
+            "background": "#6687A4",
+            "selection": "#6687A480"
           },
           {
             "cursor": "#D3BE47",
@@ -135,9 +135,9 @@
             "selection": "#D3BE4780"
           },
           {
-            "cursor": "#E84A38",
-            "background": "#E84A38",
-            "selection": "#E84A3880"
+            "cursor": "#E84E3C",
+            "background": "#E84E3C",
+            "selection": "#E84E3C80"
           },
           {
             "cursor": "#9BB589",
@@ -158,7 +158,7 @@
             "color": "#F67422"
           },
           "comment": {
-            "color": "#98755f",
+            "color": "#A07D67",
             "font_style": "italic"
           },
           "comment.doc": {
@@ -169,7 +169,7 @@
             "color": "#F67422"
           },
           "constructor": {
-            "color": "#5B7C99"
+            "color": "#6687A4"
           },
           "embedded": {
             "color": "#F4DDB3"
@@ -189,7 +189,7 @@
             "color": "#E9A131"
           },
           "hint": {
-            "color": "#5B7C99",
+            "color": "#6687A4",
             "font_weight": 700
           },
           "keyword": {
@@ -203,7 +203,7 @@
             "font_style": "italic"
           },
           "link_uri": {
-            "color": "#5B7C99"
+            "color": "#6687A4"
           },
           "number": {
             "color": "#D3BE47"
@@ -222,19 +222,19 @@
             "color": "#F4DDB3"
           },
           "property": {
-            "color": "#5B7C99"
+            "color": "#6687A4"
           },
           "punctuation": {
-            "color": "#98755f"
+            "color": "#A07D67"
           },
           "punctuation.bracket": {
-            "color": "#98755f"
+            "color": "#A07D67"
           },
           "punctuation.delimiter": {
-            "color": "#98755f"
+            "color": "#A07D67"
           },
           "punctuation.list_marker": {
-            "color": "#98755f"
+            "color": "#A07D67"
           },
           "punctuation.special": {
             "color": "#F67422"
@@ -265,7 +265,7 @@
             "font_weight": 700
           },
           "type": {
-            "color": "#5B7C99"
+            "color": "#6687A4"
           },
           "variable": {
             "color": "#F4DDB3"
@@ -284,24 +284,24 @@
         "terminal.ansi.black": "#2A1810",
         "terminal.ansi.bright_black": "#84563B",
         "terminal.ansi.dim_black": "#2A1810",
-        "terminal.ansi.red": "#E84A38",
+        "terminal.ansi.red": "#E84E3C",
         "terminal.ansi.bright_red": "#F67422",
-        "terminal.ansi.dim_red": "#E84A38",
+        "terminal.ansi.dim_red": "#E84E3C",
         "terminal.ansi.green": "#79966d",
         "terminal.ansi.bright_green": "#9BB589",
         "terminal.ansi.dim_green": "#79966d",
         "terminal.ansi.yellow": "#E9A131",
         "terminal.ansi.bright_yellow": "#F1C760",
         "terminal.ansi.dim_yellow": "#E9A131",
-        "terminal.ansi.blue": "#5B7C99",
+        "terminal.ansi.blue": "#6687A4",
         "terminal.ansi.bright_blue": "#7A96B0",
-        "terminal.ansi.dim_blue": "#5B7C99",
+        "terminal.ansi.dim_blue": "#6687A4",
         "terminal.ansi.magenta": "#D3BE47",
         "terminal.ansi.bright_magenta": "#E1D36B",
         "terminal.ansi.dim_magenta": "#D3BE47",
-        "terminal.ansi.cyan": "#5B7C99",
+        "terminal.ansi.cyan": "#6687A4",
         "terminal.ansi.bright_cyan": "#7A96B0",
-        "terminal.ansi.dim_cyan": "#5B7C99",
+        "terminal.ansi.dim_cyan": "#6687A4",
         "terminal.ansi.white": "#F4DDB3",
         "terminal.ansi.bright_white": "#FCF0DC",
         "terminal.ansi.dim_white": "#F4DDB3"

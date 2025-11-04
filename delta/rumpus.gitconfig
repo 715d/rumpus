@@ -14,14 +14,14 @@
 #
 # Color Palette:
 #   Walnut:        #2A1810 (primary background)
-#   Cork:          #98755f (comments, inactive elements)
+#   Cork:          #A07D67 (comments, inactive elements)
 #   Almond:        #F4DDB3 (primary text)
 #   Harvest Gold:  #E9A131 (highlights)
 #   Burnt Orange:  #F67422 (emphasis)
 #   Avocado Green: #79966d (success/added)
-#   Denim Blue:    #5B7C99 (info)
+#   Denim Blue:    #6687A4 (info)
 #   Lava Gold:     #D3BE47 (selections)
-#   Persimmon:     #E84A38 (errors/removed)
+#   Persimmon:     #E84E3C (errors/removed)
 #   Chocolate:     #5F3822 (secondary background)
 
 [delta "rumpus"]
@@ -36,11 +36,11 @@
     rumpus-harvest-gold = "#E9A131"
     rumpus-burnt-orange = "#F67422"
     rumpus-avocado = "#79966d"
-    rumpus-denim-blue = "#5B7C99"
+    rumpus-denim-blue = "#6687A4"
     rumpus-lava-gold = "#D3BE47"
-    rumpus-persimmon = "#E84A38"
+    rumpus-persimmon = "#E84E3C"
     rumpus-light-avocado = "#9BB589"
-    rumpus-cork = "#98755f"
+    rumpus-cork = "#A07D67"
 
     # File headers - use harvest gold for file names
     file-style = "bold rumpus.rumpus-harvest-gold"
@@ -92,7 +92,7 @@
     whitespace-error-style = "reverse rumpus.rumpus-persimmon"
 
     # Blame colors
-    blame-palette = "#2A1810 #5F3822 #79966d #5B7C99"
+    blame-palette = "#2A1810 #5F3822 #79966d #6687A4"
 
     # Hyperlinks (git delta can linkify commit hashes, etc.)
     hyperlinks = true

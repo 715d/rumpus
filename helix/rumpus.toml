@@ -17,11 +17,11 @@
 "ui.selection" = { fg = "walnut", bg = "lava-gold" }
 "ui.linenr" = "cork"
 "ui.linenr.selected" = { fg = "harvest-gold", modifiers = ["bold"] }
-"ui.cursorline" = { bg = "chocolate-brown" }
+"ui.cursorline" = { bg = "walnut" }
 
 # Statusline
 "ui.statusline" = { fg = "almond", bg = "chocolate-brown" }
-"ui.statusline.inactive" = { fg = "light-denim-blue", bg = "chocolate-brown" }
+"ui.statusline.inactive" = { fg = "almond", bg = "chocolate-brown" }
 "ui.statusline.normal" = { fg = "walnut", bg = "harvest-gold" }
 "ui.statusline.insert" = { fg = "walnut", bg = "avocado-green" }
 "ui.statusline.select" = { fg = "walnut", bg = "lava-gold" }
@@ -53,7 +53,7 @@
 
 # Gutter
 "ui.gutter" = { bg = "walnut" }
-"ui.gutter.selected" = { bg = "chocolate-brown" }
+"ui.gutter.selected" = { bg = "walnut" }
 
 # Debug
 "ui.debug.breakpoint" = "persimmon"
@@ -187,14 +187,14 @@
 # Primary colors
 walnut = "#2A1810"
 chocolate-brown = "#5F3822"
-cork = "#98755f"
+cork = "#A07D67"
 almond = "#F4DDB3"
 harvest-gold = "#E9A131"
 burnt-orange = "#F67422"
 avocado-green = "#79966d"
-denim-blue = "#5B7C99"
+denim-blue = "#6687A4"
 lava-gold = "#D3BE47"
-persimmon = "#E84A38"
+persimmon = "#E84E3C"
 
 # Light variants (ANSI bright colors)
 light-brown = "#84563B"

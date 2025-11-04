@@ -20,25 +20,25 @@ A warm, earthy terminal color scheme inspired by 1970s rumpus rooms and mid-cent
 |-------|-----|-----|-------|
 | Walnut | `#2A1810` | `42 24 16` | Primary background |
 | Chocolate Brown | `#5F3822` | `95 56 34` | Secondary background, dark accent |
-| Cork | `#98755f` | `152 117 95` | Comments, inactive UI elements |
+| Cork | `#A07D67` | `160 125 103` | Comments, inactive UI elements |
 | Almond | `#F4DDB3` | `244 221 179` | Primary text |
 | Harvest Gold | `#E9A131` | `233 161 49` | Highlights, active elements |
 | Burnt Orange | `#F67422` | `246 116 34` | Emphasis, keywords |
 | Avocado Green | `#79966d` | `121 150 109` | Success, strings |
-| Denim Blue | `#5B7C99` | `91 124 153` | Information, types |
+| Denim Blue | `#6687A4` | `102 135 164` | Information, types |
 | Lava Gold | `#D3BE47` | `211 190 71` | Selections, warnings |
-| Persimmon | `#E84A38` | `232 74 56` | Errors, locked states |
+| Persimmon | `#E84E3C` | `232 78 60` | Errors, locked states |
 
 ### Terminal Color Mapping
 
 #### Standard Colors (0-7)
 - **Black (0)**: `#2A1810` - Walnut
-- **Red (1)**: `#E84A38` - Persimmon
+- **Red (1)**: `#E84E3C` - Persimmon
 - **Green (2)**: `#79966d` - Avocado Green
 - **Yellow (3)**: `#E9A131` - Harvest Gold
-- **Blue (4)**: `#5B7C99` - Denim Blue
+- **Blue (4)**: `#6687A4` - Denim Blue
 - **Magenta (5)**: `#D3BE47` - Lava Gold
-- **Cyan (6)**: `#5B7C99` - Denim Blue
+- **Cyan (6)**: `#6687A4` - Denim Blue
 - **White (7)**: `#F4DDB3` - Almond
 
 #### Bright Colors (8-15)

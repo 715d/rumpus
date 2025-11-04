@@ -15,14 +15,14 @@ local colors = {
   -- Primary colors
   walnut = "#2A1810",
   chocolate_brown = "#5F3822",
-  cork = "#98755f",
+  cork = "#A07D67",
   almond = "#F4DDB3",
   harvest_gold = "#E9A131",
   burnt_orange = "#F67422",
   avocado_green = "#79966d",
-  denim_blue = "#5B7C99",
+  denim_blue = "#6687A4",
   lava_gold = "#D3BE47",
-  persimmon = "#E84A38",
+  persimmon = "#E84E3C",
 
   -- Bright/light colors
   light_brown = "#84563B",
@@ -40,15 +40,15 @@ local colors = {
   fg_bright = "#FCF0DC",
   cursor = "#E9A131",
   selection = "#D3BE47",
-  comment = "#98755f",
+  comment = "#A07D67",
   string = "#79966d",
   keyword = "#F67422",
   func = "#E9A131",
-  type_color = "#5B7C99",
+  type_color = "#6687A4",
   operator = "#F4DDB3",
   warning = "#D3BE47",
-  error = "#E84A38",
-  info = "#5B7C99",
+  error = "#E84E3C",
+  info = "#6687A4",
   hint = "#79966d",
 }
 
