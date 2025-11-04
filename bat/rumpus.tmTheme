@@ -628,9 +628,53 @@
 		<!-- JSON/YAML/TOML -->
 		<dict>
 			<key>name</key>
+			<string>JSON Source</string>
+			<key>scope</key>
+			<string>source.json, text.json</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F4DDB3</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON Array</string>
+			<key>scope</key>
+			<string>meta.structure.array.json, meta.array.json</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F4DDB3</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON Object</string>
+			<key>scope</key>
+			<string>meta.structure.dictionary.json, meta.object.json</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F4DDB3</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>JSON/YAML/TOML Key</string>
 			<key>scope</key>
 			<string>support.type.property-name.json, support.type.property-name.yaml, entity.name.tag.yaml, support.type.property-name.toml</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#5B7C99</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON Key String</string>
+			<key>scope</key>
+			<string>meta.structure.dictionary.key.json string.quoted.double.json</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
